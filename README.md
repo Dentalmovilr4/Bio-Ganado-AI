@@ -22,16 +22,6 @@
 * **Entorno de Desarrollo:** Desarrollado íntegramente en dispositivos móviles vía **Termux** y **Acode**.
 
 ---
-
-## 📂 Estructura del Proyecto
-
-```text
-├── app.py                # Aplicación principal de Streamlit
-├── models/               # Modelos .pt o .tflite entrenados
-├── data/                 # Dataset de referencia biométrica
-├── requirements.txt      # Dependencias del sistema
-└── README.md             # Documentación del proyecto
-
 📸 Guía para una Captura Exitosa (Precisión IA)
 Para que el algoritmo de Dentalmovilr4 calcule el peso con un margen de error mínimo, sigue estas 3 reglas de oro:
 1. La Posición del Animal (Perfil Total)
@@ -44,3 +34,14 @@ Suelo Plano: El animal debe estar sobre una superficie nivelada para que las pat
 3. La Iluminación (Sin Sombras Fuertes)
 Evita fotos a mediodía con sol muy fuerte, ya que las sombras bajo el vientre pueden confundir a la IA y hacer que el animal parezca más "pesado" o "delgado" de lo que es.
 Mejor hora: Temprano en la mañana o al final de la tarde.
+
+## 📂 Estructura del Proyecto
+
+```text
+├── app.py                # Aplicación principal de Streamlit
+├── models/               # Modelos .pt o .tflite entrenados
+├── data/                 # Dataset de referencia biométrica
+├── requirements.txt      # Dependencias del sistema
+└── README.md             # Documentación del proyecto
+
+
